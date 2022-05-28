@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: url('https://static.civishir.hu/bo/2022/04/tn4-debreceni_egyetem.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.nevjegy {
+  width: 700px;
+}
+
+.profilkep {
+  margin-top: 30px;
+}
+
+.tartalom {
+  color: white;
+}
+
+
+
+.profilkep, .nev, .elerhetoseg {
+  text-align: center;
+}
+
+.tartalom {
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nev {
+  font-size: 20px;
+}
+
+
+.tartalom {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.elerhetoseg {
+  margin-top: 30px;
+}
+
+
+li {
+  display: inline;
+}
+
+
+.nevjegy {
+  background-color: hsla(0, 0%, 20%, 0.7);
+  color: white;
+}
+
+img {
+  width: 40%;
+  height: 40%;
+}
+
+img:hover {
+  transform: scale(2.5);
+  transition: all 1.3s ease-in-out;  
+}
+
+.tartalom {
+  border-top: 3px dotted;
+  border-bottom: 3px dotted;
+}
+
+.face:hover, .insta:hover {
+  font-size: 40px;
+  color: white;
+}
+
+.elerhetoseg {
+  margin-bottom: 10px;
+  border-bottom: 3px dotted;
+}
+
+img {
+  position: relative;
+  left: 210px;
+}
+
+div.profilkep {
+  position: relative;
+  right: 210px;
+}
